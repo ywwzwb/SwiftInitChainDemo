@@ -37,3 +37,11 @@ class Child2Class: RootClass {
         self.init(value2: 2)
     }
 }
+class Child3Class: RootClass {
+    required init(value2: Int) {
+        super.init()
+    }
+    required init(value : Int) {
+        super.init(value: value)
+    }
+}
